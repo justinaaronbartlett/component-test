@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "my-component "
+  description: "description "
+  annotations:
+    github.com/project-slug: "justinaaronbartlett/component-test/master/catalog-info.yaml "
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: other
+  lifecycle: unknown
