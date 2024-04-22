@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "my-component "
-  description: "description "
+  name: your-component-name
+  description: A brief description of your component
   annotations:
-    github.com/project-slug: "justinaaronbartlett/component-test/master/catalog-info.yaml "
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: experimental
+  owner: your-team-name
